@@ -14,4 +14,5 @@ vim.opt.undofile = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.scrolloff = 10
-
+vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_netrw = 1
