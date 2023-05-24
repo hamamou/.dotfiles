@@ -1,0 +1,5 @@
+local bufremove = require('mini.bufremove')
+bufremove.setup()
+vim.keymap.set("n", "<leader>c",  function() 
+       bufremove.delete()
+end)
