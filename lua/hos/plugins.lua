@@ -56,9 +56,13 @@ require("lazy").setup({
               },
        },
        "theprimeagen/harpoon",
-       "tpope/vim-commentary",
        'lewis6991/gitsigns.nvim',
        {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
        {"smartpde/telescope-recent-files"},
        { 'echasnovski/mini.nvim', version = false },
+       {
+              'nvim-lualine/lualine.nvim',
+              dependencies = { 'nvim-tree/nvim-web-devicons', opt = true }
+       },
+       "nvim-tree/nvim-tree.lua"
 })
